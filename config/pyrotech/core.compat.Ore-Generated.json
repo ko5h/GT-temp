@@ -1,0 +1,206 @@
+{
+  "__comments": [
+    "WARNING: All changes should be made to the file with the name Custom",
+    "in the title. Changes made to the Generated file will be overwritten.",
+    "",
+    "This file defines ore compatibility.",
+    "",
+    "Slag content will be generated for each oredict entry.",
+    "",
+    "The first valid key in each langKey list will be chosen; reorder keys",
+    "to change which key is selected.",
+    "",
+    "The first valid nugget in each output list will be chosen; reorder nuggets",
+    "to change which nugget is selected.",
+    "",
+    "Slag color is a hex color code without the #",
+    "",
+    "Lang keys are in the format: (domain):(key)",
+    "",
+    "Output item strings are in the format: (domain):(path):(meta)"
+  ],
+  "oredict": {
+    "oreCobalt": {
+      "slagColor": "1c5bc1",
+      "langKey": [
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block"
+      ],
+      "output": [
+        "gregtech:meta_item_1:9017"
+      ]
+    },
+    "oreCopper": {
+      "slagColor": "ffaa1c",
+      "langKey": [
+        "factorytech:tile.factorytech:factorytech.ore:0",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "mysticalworld:tile.copper_ore",
+        "nuclearcraft:tile.nuclearcraft.ore.copper"
+      ],
+      "output": [
+        "agricraft:agri_nugget:4",
+        "factorytech:ore_dust:4",
+        "gregtech:meta_item_1:9018",
+        "mysticalworld:copper_nugget:0"
+      ]
+    },
+    "oreGold": {
+      "slagColor": "fcee4b",
+      "langKey": [
+        "cyclicmagic:tile.end_gold_ore",
+        "cyclicmagic:tile.nether_gold_ore",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "minecraft:tile.oreGold"
+      ],
+      "output": [
+        "minecraft:gold_nugget:0"
+      ]
+    },
+    "oreIridium": {
+      "slagColor": "d5d4e7",
+      "langKey": [
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block"
+      ],
+      "output": [
+        "gregtech:meta_item_1:9032"
+      ]
+    },
+    "oreIron": {
+      "slagColor": "d8af93",
+      "langKey": [
+        "cyclicmagic:tile.end_iron_ore",
+        "cyclicmagic:tile.nether_iron_ore",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "minecraft:tile.oreIron"
+      ],
+      "output": [
+        "agricraft:agri_nugget:3",
+        "minecraft:iron_nugget:0"
+      ]
+    },
+    "oreLead": {
+      "slagColor": "95afee",
+      "langKey": [
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "nuclearcraft:tile.nuclearcraft.ore.lead"
+      ],
+      "output": [
+        "agricraft:agri_nugget:6",
+        "gregtech:meta_item_1:9035"
+      ]
+    },
+    "oreNickel": {
+      "slagColor": "e4e5d8",
+      "langKey": [
+        "factorytech:tile.factorytech:factorytech.ore:1",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block"
+      ],
+      "output": [
+        "agricraft:agri_nugget:9",
+        "factorytech:ore_dust:5",
+        "gregtech:meta_item_1:9044"
+      ]
+    },
+    "oreOsmium": {
+      "slagColor": "9babc4",
+      "langKey": [
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block"
+      ],
+      "output": [
+        "agricraft:agri_nugget:11",
+        "gregtech:meta_item_1:9047"
+      ]
+    },
+    "orePlatinum": {
+      "slagColor": "55f3ff",
+      "langKey": [
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block"
+      ],
+      "output": [
+        "agricraft:agri_nugget:10",
+        "gregtech:meta_item_1:9051"
+      ]
+    },
+    "oreSilver": {
+      "slagColor": "e8f6fd",
+      "langKey": [
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "mysticalworld:tile.silver_ore"
+      ],
+      "output": [
+        "agricraft:agri_nugget:7",
+        "gregtech:meta_item_1:9062",
+        "mysticalworld:silver_nugget:0"
+      ]
+    },
+    "oreTin": {
+      "slagColor": "c3e9ff",
+      "langKey": [
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "nuclearcraft:tile.nuclearcraft.ore.tin"
+      ],
+      "output": [
+        "agricraft:agri_nugget:5",
+        "gregtech:meta_item_1:9071"
+      ]
+    },
+    "oreUranium": {
+      "slagColor": "5c734b",
+      "langKey": [
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "nuclearcraft:tile.nuclearcraft.ore.uranium"
+      ],
+      "output": [
+        "gregtech:meta_item_1:9075"
+      ]
+    }
+  }
+}
