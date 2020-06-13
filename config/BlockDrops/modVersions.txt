@@ -165,7 +165,6 @@
   "foamfix": "0.10.10-1.12.2",
   "itemscroller": "0.12.0",
   "dynamistics": "1.0.0",
-  "multiblocktweaker": "1.12.2-beta-0.1.2",
   "incorporeal": "1.2.5",
   "silentgems": "2.8.18",
   "base": "3.13.0",
