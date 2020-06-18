@@ -42,14 +42,12 @@
         "gregtech:tile.ore_block",
         "gregtech:tile.ore_block",
         "gregtech:tile.ore_block",
-        "mysticalworld:tile.copper_ore",
         "nuclearcraft:tile.nuclearcraft.ore.copper"
       ],
       "output": [
         "agricraft:agri_nugget:4",
         "factorytech:ore_dust:4",
-        "gregtech:meta_item_1:9018",
-        "mysticalworld:copper_nugget:0"
+        "gregtech:meta_item_1:9018"
       ]
     },
     "oreGold": {
@@ -164,13 +162,11 @@
         "gregtech:tile.ore_block",
         "gregtech:tile.ore_block",
         "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "mysticalworld:tile.silver_ore"
+        "gregtech:tile.ore_block"
       ],
       "output": [
         "agricraft:agri_nugget:7",
-        "gregtech:meta_item_1:9062",
-        "mysticalworld:silver_nugget:0"
+        "gregtech:meta_item_1:9062"
       ]
     },
     "oreTin": {

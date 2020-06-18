@@ -50,6 +50,7 @@
   "incorporeal_core": "1.1.0",
   "resourceloader": "1.5.3",
   "dimstages": "2.0.23",
+  "watercontrolextreme": "1.0.0",
   "patchouli": "1.0-20",
   "gamestages": "2.0.123",
   "randomthings": "4.2.7.4",
@@ -62,7 +63,6 @@
   "naturesaura": "18.1",
   "aiimprovements": "0.0.1.1",
   "extrabotany": "58",
-  "ageingspawners": "1.0.0",
   "moreoverlays": "1.15.1",
   "forgemultipartcbe": "2.6.2.83",
   "jetif": "1.5.2",
@@ -156,6 +156,7 @@
   "botania_tweaks_core": "-100",
   "enderiobase": "5.1.55",
   "wrcbe": "2.3.2",
+  "toolprogression": "1.12.2-1.6.9",
   "wanionlib": "1.12.2-2.4",
   "appleskin": "1.0.9",
   "infinitylib": "1.12.2-1.12.0",
@@ -167,6 +168,5 @@
   "dynamistics": "1.0.0",
   "incorporeal": "1.2.5",
   "silentgems": "2.8.18",
-  "base": "3.13.0",
-  "finite-water-control": "1.0"
+  "base": "3.13.0"
 }
