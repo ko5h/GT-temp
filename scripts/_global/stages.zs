@@ -1,21 +1,24 @@
 #priority 2001
 global stages as string[string] = {
 
-	base : "base",
-  pyro : "pyro",
-  stone : "stone",
-  bronze : "bronze",
-  steel : "steel",
-  aluminium : "aluminium",
-  stainless : "stainless",
-  titan : "titan",
-  tungsten : "tungsten",
+	base             : "base",
+  pyro             : "pyro",
+    pyro_stone     : "pyro_stone",
+    pyro_refactory : "pyro_refactory",
 
-  botania : "botania",
-  astral : "astral",
 
-  common : "common",
-  special : "special",
+  stone            : "stone",
+  bronze           : "bronze",
+  steel            : "steel",
+  aluminium        : "aluminium",
+  stainless        : "stainless",
+  titan            : "titan",
+  tungsten         : "tungsten",
 
-  disable : "disable"
+  botania          : "botania",
+  astral           : "astral",
+
+  common           : "common", # Common stage is TODO for ALL scripts
+  special          : "special",
+  disable          : "disable"
 };

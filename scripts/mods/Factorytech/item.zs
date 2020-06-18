@@ -12,8 +12,8 @@ var itemsStage as IIngredient[][string] = {
 
   ],
   stages.disable : [
-  <factorytech:ore>,
-  <factorytech:ore:1>
+    <factorytech:ore>,
+    <factorytech:ore:1>
   ]
 };
 
