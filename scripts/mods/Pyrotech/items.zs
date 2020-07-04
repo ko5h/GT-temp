@@ -1,46 +1,11 @@
-import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-import crafttweaker.oredict.IOreDict;
 
 import mods.ItemStages.addItemStage;
-import mods.ItemStages.stageRecipeCategory;
-
-var categoryStage as string[][string] = {
-  stages.pyro_stone : [
-    "pyrotech.soaking.pot",
-    "pyrotech.stone.kiln",
-    "pyrotech.stone.mill",
-    "pyrotech.stone.oven",
-    "pyrotech.stone.crucible"
-  ],
-  stages.pyro_refactory : [
-    "pyrotech.bloomery",
-    "pyrotech.wither.forge",
-    "pyrotech.brick.kiln",
-    "pyrotech.brick.mill",
-    "pyrotech.brick.oven",
-    "pyrotech.brick.crucible",
-    "pyrotech.mechanical.compacting.bin",
-    "pyrotech.refractory.burn"
-
-  ],
-  stages.disable : [
-    "pyrotech.anvil.ironclad",
-    "pyrotech.worktable"
-  ]
-/* Its base category
-    "pyrotech.pit.kiln",
-    "pyrotech.crude.drying",
-    "pyrotech.drying",
-    "pyrotech.chopping",
-    "pyrotech.anvil.granite",
-    "pyrotech.compacting.bin",
-    "pyrotech.campfire",
-    "pyrotech.pit.burn"
-*/
-};
 
 var itemsStage as IIngredient[][string] = {
+  stages.dev : [
+    <forge:bucketfilled>.withTag({FluidName: "liquid_clay", Amount: 1000})
+  ],
   stages.pyro_stone : [
     <pyrotech:stone_door>,
     <pyrotech:planks_tarred>,
@@ -170,9 +135,6 @@ var itemsStage as IIngredient[][string] = {
     <pyrotech:fossil_ore>,
     <pyrotech:dense_coal_ore>,
     <pyrotech:dense_nether_coal_ore>
-  ],
-  stages.common : [
-    <forge:bucketfilled>.withTag({FluidName: "liquid_clay", Amount: 1000})
   ]
 };
 /*
@@ -186,9 +148,4 @@ for stage, items in itemsStage {
 		addItemStage(stage, item);
     mods.recipestages.Recipes.setRecipeStage(stage, item);
   }
-}
-for stage, categories in categoryStage {
-	for category in categories {
-		stageRecipeCategory(stage, category);
-	}
 }

@@ -1,20 +1,9 @@
-import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-import crafttweaker.oredict.IOreDict;
 
 import mods.ItemStages.addItemStage;
 
 var itemsStage as IIngredient[][string] = {
-  stages.pyro : [
-    <mysticalworld:cooked_venison>,
-    <mysticalworld:cooked_squid>,
-    <mysticalworld:assorted_seeds>,
-    <mysticalworld:cooked_seeds>,
-    <mysticalworld:cooked_aubergine>,
-    <mysticalworld:stuffed_aubergine>,
-    <mysticalworld:silk_thread>
-  ],
-  stages.common : [
+  stages.dev : [
     <mysticalworld:epic_squid>,
     <mysticalworld:ink_bottle>,
     <mysticalworld:unripe_pearl>,
@@ -29,6 +18,15 @@ var itemsStage as IIngredient[][string] = {
     <mysticalworld:pearl_fence_gate>,
     <mysticalworld:pearl_fence>,
     <mysticalworld:pearl_pressure_plate>
+  ],
+  stages.pyro : [
+    <mysticalworld:cooked_venison>,
+    <mysticalworld:cooked_squid>,
+    <mysticalworld:assorted_seeds>,
+    <mysticalworld:cooked_seeds>,
+    <mysticalworld:cooked_aubergine>,
+    <mysticalworld:stuffed_aubergine>,
+    <mysticalworld:silk_thread>
   ],
   stages.disable : [
     <minecraft:spawn_egg>.withTag({EntityTag: {id: "mysticalworld:entity_fox"}}),
@@ -83,5 +81,6 @@ var itemsStage as IIngredient[][string] = {
 for stage, items in itemsStage {
 	for item in items {
 		addItemStage(stage, item);
-	}
+    mods.recipestages.Recipes.setRecipeStage(stage, item);
+  }
 }
