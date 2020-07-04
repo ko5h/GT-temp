@@ -18,7 +18,7 @@ global stages as string[string] = {
   botania          : "botania",
   astral           : "astral",
 
-  common           : "common", # Common stage is TODO for ALL scripts
+  dev              : "dev", # Common stage is TODO for ALL scripts
   special          : "special",
   disable          : "disable"
 };
